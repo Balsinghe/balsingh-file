@@ -1,0 +1,49 @@
+html{
+    background-color:pink;
+}
+nav{
+    text-align: center;
+    border: 0.5em solid black;
+    border-radius: 2em;
+    line-height: 2em;
+    font-size: 1.5rem;
+    margin: auto 5rem;
+    color: gold;
+    display: block;
+    
+}
+ul{
+    list-style-type:none;
+    border-top: 5px solid black;
+    text-decoration: none;
+}
+li{
+    border-top: 2px solid black;
+    
+    
+}
+h2{
+    padding: 0em;
+    color: black;
+    background-color: gold;
+    border-radius: 2em;
+}
+li a,
+li a:visited{
+    text-decoration: none;
+    color:green;
+}
+a:hover,
+a:focus{
+    background-color: brown;
+    color: whitesmoke;
+
+}
+li a{
+    display: block;
+}
+p{
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+}
