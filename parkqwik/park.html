@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="park.css">
+    <title>Parkqwik</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="">Parkqwik</a>
+        </div>
+        <ul>
+            <li><a href="park.html">Home</a></li>
+            <li><a href="serv.html">Services</a></li>            
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>            
+        
+
+    <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+
+    </div>
+    </nav>
+    <script>
+       const menu= document.querySelector('.menu')
+       const menuList= document.querySelector('nav ul')
+       menu.addEventListener('click', ()=>{
+        menuList.classList.toggle('showmenu')
+      })
+    </script>
+    <div class="container">
+        <h2>Simplify Your Car Experience with ParkQwik</h2>
+        <p>The complete Parking App and Car Services Solution</p>
+        <button ><a herf="https://play.google.com/store/apps/details?id=com.parkqwik.app">Download</a></button>
+    </div>
+    <div class="image">
+        <img src="car.gif">
+
+    </div>
+</body>
+</html>

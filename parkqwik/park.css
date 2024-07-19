@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif  ;
+} 
+nav{
+    background-color: green;
+    font-size: 28px;
+    align-items: center;
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    
+}
+nav li{
+    display:  inline-block;
+    margin: 0 8px;
+    
+
+}
+
+nav a{
+    text-decoration: none;
+ }
+ .logo{
+    font-size: 36px;
+    font-weight: bolder;
+ }
+ nav a:hover{
+    color: whitesmoke;
+ }
+ .menu-line{
+    height: 3px;
+    width: 20px;
+    background-color: whitesmoke;
+    margin-bottom: 3px;
+ }
+ .menu{
+    cursor: pointer;
+    display: none;
+
+ }
+ @media all and (max-width: 640px){
+    nav{
+        flex-direction: column;
+    }
+    nav li{
+        display: flex;
+        padding: 10px 0;
+
+    }
+    ul{
+        text-align: center;
+        padding: 0;
+        display: none;
+
+    }
+    .logo{
+        align-self: flex-start;
+        margin:10px 0px 0px 30px
+
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top:25px;
+
+
+    }
+    .showmenu{
+        display: block;
+    }
+    
+
+    }
+.container{
+        padding: 2em;
+        margin: 1em;
+
+
+}
+ .container h2{
+    font-size: 3em;
+}
+ .container p{
+    font-size: 2em;
+}
+button{
+    background-color: green;
+    border: 1px solid black;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+button:hover{
+    color: red;
+}
+.image{
+    width: 50%;
+}
+img{
+    width: 40rem;
+}
+@media screen and ( max-width:1200px){
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+    .image{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+
+    }
+    img{
+        width: 20rem;
+        
+    }
+}
+@media screen and ( max-width:576px){
+    .container{
+        width: 100%;
+        text-align: center;
+        padding: 0.2em;
+        margin: 0.3em;
+    }
+    .container h2,p{
+        margin-bottom: 5%;
+        
+
+    }
+    .image{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+
+    }
+    img{
+        width: 20rem;
+        animation: car 5s ease-in-out;
+    }
+    @keyframes car {
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(-220%);
+        }
+    }
+}
+
+
+ 
+    
+ 
